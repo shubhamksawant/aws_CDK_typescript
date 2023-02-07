@@ -20,8 +20,20 @@
     "typescript": "~4.9.4"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.191.0",
+    "@aws-cdk/aws-custom-resources": "^0.8.1",
+    "@aws-cdk/aws-dynamodb": "^1.191.0",
+    "@aws-cdk/aws-emrserverless": "^1.191.0",
+    "@aws-cdk/aws-iam": "^1.191.0",
+    "@aws-cdk/aws-lambda": "^1.191.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.191.0",
+    "@aws-cdk/aws-s3": "^1.191.0",
+    "@aws-cdk/aws-s3-notifications": "^1.191.0",
+    "@aws-cdk/aws-sns": "^1.191.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.191.0",
     "aws-cdk-lib": "2.62.2",
     "cdk-dynamo-table-viewer": "^0.2.1",
-    "constructs": "^10.0.0"
+    "constructs": "^10.0.0",
+    "i": "^0.3.7"
   }
 }
